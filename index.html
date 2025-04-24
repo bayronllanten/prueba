@@ -13,13 +13,13 @@
 
   <header >
     <div class="header-content">
-      <img src="logo.png" alt="PuntoTicket" class="logo">
+      <img src="img/logo.png" alt="PuntoTicket" class="logo">
       <nav class="navbar">
         <ul class="nav">
-          <li><a href="#">Inicio </a></li>
-          <li><a href="#">Eventos</a></li>
-          <li><a href="#">Equipo</a></li>
-          <li><a href="#">Contacto</a></li>
+          <li><a href="#inicio">Inicio </a></li>
+          <li><a href="#eventos">Eventos</a></li>
+          <li><a href="#equipo">Equipo</a></li>
+          <li><a href="#contacto">Contacto</a></li>
         </ul>
       </nav>
     </div>
@@ -27,25 +27,25 @@
 
   <main>
 
-    <section class="contenedor-seccion">
+    <section class="contenedor-seccion" id="inicio">
       <div>
         <h1>Compra tus entradas favoritas</h1>
         <p>Conciertos, festivales, obras de teatro y más</p>
       </div>
     </section>
 
-    <section class="eventos">
+    <section class="eventos" id="eventos">
       <h2>Eventos Destacados</h2>
       <div class="evento-grid">
         <article class="evento-card">
-          <img src="evento1.jpg" alt="Bad Bunny">
+          <img src="img/evento1.jpg" alt="Bad Bunny">
           <p>Movistar Arena - Santiago / Heavy Metal</p>
           <h3>MR BUNGLE</h3>
           <p>08 de octubre 2025</p>
           <a href="#" class="btn-comprar">Comprar Entrada</a>
         </article>
         <article class="evento-card">
-          <img src="evento2.jpg" alt="Festival Primavera">
+          <img src="img/evento2.jpg" alt="Festival Primavera">
           <p>Teatro Oriente - Providencia / Podcast</p>
           <h3>Trascender - Ley de Murphy</h3>
           <p>29 de abril 2025 - 27 de mayo 2025</p>
@@ -53,7 +53,7 @@
 
         </article>
         <article class="evento-card">
-          <img src="evento3.jpg" alt="Ana Tijoux">
+          <img src="img/evento3.jpg" alt="Ana Tijoux">
           <p>Movistar Arena - Santiago / Urbano</p>
           <h3>Duki - World Tour</h3>
           <p>05 de julio 2025 - 06 de julio 2025</p>
@@ -61,8 +61,33 @@
         </article>
       </div>
     </section>
-    <section class="contenedor-seccion">
-      <div class="contacto">
+
+
+
+    <section class="organizador-card" id="equipo">
+      <h2>Organizadores y Producción</h2>
+      <div class="organizador-grid">
+          <article class="organizador-card">
+              <img src="img/persona1.png" alt="Bad Bunny">
+              <h3>Camila Rios</h3>
+              <p>Productora General</p>
+          </article>
+          <article class="organizador-card">
+              <img src="img/persona2.png" alt="Festival Primavera">
+              <h3>Martin Lopez</h3>
+              <p>Director Técnico</p>
+          </article>
+          <article class="organizador-card">
+              <img src="img/persona3.png" alt="Ana Tijoux">
+              <h3>Sofia Valenzuela</h3>
+              <p>Gestora Cultural</p>
+          </article>
+      </div>
+  </section>
+   
+
+    <section class="contenedor-footer">
+      <div class="contacto" id="contacto">
       <aside>
         <h2>Contacto</h2>
         <p>800 20 20 20</p>
@@ -94,6 +119,38 @@
       </form>
     </section>
   </main>
+
+  <footer class="footer">
+    <div class="footer-section">
+      <img src="img/logo.png" alt="logo ticket" class="footer-logo">
+      <h3>CONOZCAMOSNOS</h3>
+      <ul>
+        <li><a href="#">Acerca de nosotros</a></li>
+        <li><a href="#">Preguntas frecuentes</a></li>
+        <li><a href="#">Términos y condiciones</a></li>
+        <li><a href="#">Código de ética</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>TRABAJEMOS JUNTOS</h3>
+      <ul>
+        <li><a href="#">¿Tienes un evento?</a></li>
+        <li><a href="#">Venta de empresas</a></li>
+        <li><a href="#">Envía tu CV</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>CONVERSEMOS</h3>
+      <div class="social-icons">
+        <a href="#"><img src="img/facebook.svg" alt="Facebook"></a>
+        <a href="#"><img src="img/instagram.svg" alt="Instagram"></a>
+        <a href="#"><img src="img/whatsapp.svg" alt="WhatsApp"></a>
+      </div>
+      <button class="help-button">Centro de ayuda</button>
+    </div>
+  </footer>
 </body>
 
 </html>
